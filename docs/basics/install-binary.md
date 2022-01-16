@@ -71,6 +71,7 @@ I always recommend to use the latest release. Starting from WLED 0.12.0, pins ca
 | WLED_0.x.x_ESP8266.bin | NodeMCU, Wemos D1 mini, ESP-12, all ESP8266 with 4MB flash. Recommended.
 | WLED_0.x.x_ESP32.bin | All ESP32 devices (try [this](https://github.com/Aircoookie/WLED/issues/517#issuecomment-571333712) if the WLED-AP doesn't appear after flashing) |
 | WLED_0.x.x_ESP32_Ethernet.bin | ESP32 devices with an Ethernet interface. Also works with WiFi only. |
+| WLED_0.x.x_ESP02.bin | Devices that have 2MB of flash memory, this binary has the full feature set, and does allow wireless updates.
 | WLED_0.x.x_ESP01.bin | ESP-01 (black PCB), most Sonoff devices, ESP8265, all ESP8266 with 1MB flash. This binary has the full feature set, but wireless updates will not work. |
 | esp32_bootloader.bin | Not a WLED release. To be flashed to a brand new ESP32 before flashing the WLED binary itself. |
 
